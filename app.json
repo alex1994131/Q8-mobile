@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Q8expo",
+    "slug": "Q8expo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "requireFullScreen": true,
+      "bundleIdentifier": "com.happy.example.Q8expo"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "sdkVersion": "38.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "com.happy.example.Q8expo",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCfhSyz6dVvBgThpdwN9vsqbvXkRdQ9PVk"
+        }
+      }
+    }
+  }
+}
